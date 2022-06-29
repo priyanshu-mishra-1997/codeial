@@ -4,6 +4,8 @@ const port=8001;
 
 // use express Router
 app.use('/',require('./routes'));
+
+app.set('view engine')
 app.listen(port,function(err)
 {
     if(err)
